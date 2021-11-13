@@ -1,7 +1,6 @@
 # TinyAction
-Baseline code for [[TinyAction Challenge]](https://www.crcv.ucf.edu/tiny-actions-challenge-cvpr2021/) <br>
-[[Paper]](https://arxiv.org/pdf/2107.11494.pdf) <br>
-[[Dataset]](https://www.crcv.ucf.edu/tiny-actions-challenge-cvpr2021/data/TinyVIRAT-v2.zip)
+Baseline code for [[TinyAction Challenge]](https://www.crcv.ucf.edu/tiny-actions-challenge-cvpr2021/)  [[Paper]](https://arxiv.org/pdf/2107.11494.pdf)  [[Dataset]](https://www.crcv.ucf.edu/tiny-actions-challenge-cvpr2021/data/TinyVIRAT-v2.zip)
+
 
 ## Getting started
 ### Setup
@@ -14,7 +13,7 @@ Download the dataset and extract the files. Once done, change the dataset path i
 ### Training
 We provide training setup for I3D, R3D, R2+1D and wideresnet models. If you wish to use pretrained weights, change the path for `--pretrain_path`. The other options are related to each model (from their papers). Use the following command for each model:
 
-####I3D
+#### I3D
 ```
 python main.py --result_path results --sub_path i3d --model i3d --model_depth 18 --n_classes 26 --n_pretrain_classes 157 --pretrain_path weights/rgb_charades.pt --num_frames 32 --skip_frames 1 --sample_size 224 --learning_rate 0.001 --optimizer adam --batch_size 24 --n_threads 4 --checkpoint 5
 ```
