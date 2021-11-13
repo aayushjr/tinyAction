@@ -43,7 +43,7 @@ python evaluate_variants.py --model i3d --model_depth 18 --n_classes 26 --n_pret
 
 #### R3D 
 ```
-python evaluate.py --sub_path r3d_18 --model resnet --model_depth 18 --n_classes 26 --n_pretrain_classes 700 --pretrain_path results/r3d/save.pth --num_frames 16 --skip_frames 1 --sample_size 112 --n_threads 4
+python evaluate.py --sub_path r3d_18 --model resnet --model_depth 18 --n_classes 26 --n_pretrain_classes 26 --pretrain_path results/r3d/save.pth --num_frames 16 --skip_frames 1 --sample_size 112 --n_threads 4
 ```
 
 #### R2+1D
