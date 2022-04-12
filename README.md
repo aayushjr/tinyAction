@@ -8,7 +8,7 @@ Baseline code for [[TinyAction Challenge]](https://www.crcv.ucf.edu/tiny-actions
 
 Download the dataset and extract the files. Once done, change the dataset path in `configuration.py` file accordingly.
 
-(Optional) Download the pretrained weights for the model.
+(Optional) Download the pretrained weights for the baseline models [[I3D]](https://www.crcv.ucf.edu/data1/tiny-actions/trained_weights/i3d_tinyVirat.pth)  [[R(2+1)D]](https://www.crcv.ucf.edu/data1/tiny-actions/trained_weights/r2p1d_K_50_tinyVirat.pth)  [[WideResnet]](https://www.crcv.ucf.edu/data1/tiny-actions/trained_weights/wideresnet_50_tinyVirat.pth).
 
 ### Training
 We provide training setup for I3D, R3D, R2+1D and wideresnet models. If you wish to use pretrained weights, change the path for `--pretrain_path`. The other options are related to each model (from their papers). Use the following command for each model:
